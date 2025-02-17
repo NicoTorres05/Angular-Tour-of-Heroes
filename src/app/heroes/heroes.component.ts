@@ -4,6 +4,7 @@ import {NgIf, UpperCasePipe} from '@angular/common';
 import {FormsModule} from '@angular/forms';
 import { HEROES } from '../mock-heroes';
 import {NgFor} from '@angular/common';
+import {HeroDetailComponent} from '../hero-detail/hero-detail.component';
 
 @Component({
   standalone: true,
@@ -12,7 +13,8 @@ import {NgFor} from '@angular/common';
     UpperCasePipe,
     FormsModule,
     NgFor,
-    NgIf
+    NgIf,
+    HeroDetailComponent
   ],
   templateUrl: './heroes.component.html',
   styleUrl: './heroes.component.css'
