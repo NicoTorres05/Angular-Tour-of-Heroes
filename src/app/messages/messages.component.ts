@@ -9,6 +9,7 @@ import {NgForOf, NgIf} from '@angular/common';
     NgForOf
   ],
   templateUrl: './messages.component.html',
+  standalone: true,
   styleUrl: './messages.component.css'
 })
 export class MessagesComponent {
